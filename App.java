@@ -6,6 +6,8 @@ public class App {
         Scanner in = new Scanner(System.in);
         var name = in.nextLine();
         System.out.println("Hello, "+name+".");
+        System.out.println("Can you tell us your age?");
+        var age = in.nextInt();
         in.close();
     }
 }
